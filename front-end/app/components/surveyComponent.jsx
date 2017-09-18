@@ -214,13 +214,13 @@ class SurveyComponent extends React.Component {
                             <legend>Radio & Check box buttons</legend>
                             <div className="form-check">
                             <label className="form-check-label">
-                                <input type="radio" className="form-check-input" name="questFour" value={this.state.questFour} onChange={this.handleChange} />
+                                <input type="radio" className="form-check-input" name="questFour" checked={this.state.questFour} onChange={this.handleChange} />
                                 {this.state.questionary.Questino3}
                             </label>
                             </div>
                             <div className="form-check">
                             <label className="form-check-label">
-                                <input type="radio" className="form-check-input" name="questFive"  onChange={this.handleChange}/>
+                                <input type="radio" className="form-check-input" name="questFive" checked={this.state.questFive}  onChange={this.handleChange}/>
                                 {this.state.questionary.Question4}
                             </label>
                             </div>
