@@ -1,0 +1,43 @@
+
+
+.box {
+    max-width: 1140px;
+    margin: 15px auto;
+}
+
+.img-display {
+    background-image:  url('../img/logo.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 54px;
+    width: 54px;
+    border-radius: 50%;
+}
+
+.img-greed-display {
+    background-image:  url('../img/greed.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.btn-container a {
+    margin: auto 2px;
+    cursor: pointer;
+}
+
+.btn-container .btn-circule {
+    margin: auto 2px;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    padding-top: 30px;
+    box-shadow: 0 2px 2px rgb(208, 202, 244);
+}
+
+.form-container {
+    width: 50%;
+    margin: 5px auto;
+}

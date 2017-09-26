@@ -6,6 +6,7 @@ const bodyParser = require('body-parser');
 
 // Get API routes
 const web = require('./back-end/routes/web');
+const api = require('./back-end/routes/api');
 
 const app = express();
 
@@ -26,6 +27,7 @@ app.use(express.static(path.join(__dirname, './node_modules')));
 
 // Set API/WEB routes 
 app.use('/web', web);
+app.use('/api', api);
 
 // Catch all routes and return index start point
 app.get('*', (req, res, next) =>{

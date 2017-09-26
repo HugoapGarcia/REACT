@@ -1,12 +1,14 @@
 'use strict'
-// Get dependencies
+
+// Get dependecies
+
 const express = require('express');
 const router = express.Router();
 const path = require('path');
 
-const webController = require('../controllers/homeController');
+const surveyCotroller = require('../controllers/surveyController');
 
 // Routes
-router.get('/', webController.home);
+router.post('/survey', surveyCotroller.survey);
 
 module.exports = router;
