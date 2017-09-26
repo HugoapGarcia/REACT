@@ -21,7 +21,7 @@ class SurveyThree extends React.Component {
 
     /******************************************************************
     *    Function: handleAnimation                                     *
-    *    Arguments: ()                                                 *
+    *    Arguments: callback                                           *
     *    Return: Animation selected for spacific form by class name    *
     *    Main purpose: Control behaiver of Animation by using build in *
     *    callback funcion of animation library                         *
